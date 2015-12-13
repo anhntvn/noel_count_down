@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
                     long hours = timeLeft / 1000 / 60 / 60;
                     long mins = timeLeft / 1000 / 60;
                     long secs = timeLeft / 1000;
-                    mTvDays.setText(String.valueOf(days) + " ngày");
+                    mTvDays.setText(String.valueOf(days) + " Ngày");
                     String h = "0" + (hours % 24);
                     String m = "0" + (mins % 60);
                     String si = "0" + (secs % 60);

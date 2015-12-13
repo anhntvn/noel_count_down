@@ -3,18 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@drawable/bg">
+    android:background="@drawable/bg"
+    android:alpha="70">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="MERRY CHRISTMAS  HAPPY NEW YEARt"
+        android:text="MERRY CHRISTMAS \n&amp;\n HAPPY NEW YEARt"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
         android:textSize="30dp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="#3ffd31" />
 
 
     <LinearLayout
@@ -32,7 +34,7 @@
             android:layout_height="wrap_content"
 
             android:text="NGAY"
-            android:textColor="#ffffff"
+            android:textColor="#fff78d"
             android:textSize="50dp" />
 
         <TextView
@@ -43,7 +45,7 @@
             android:layout_below="@+id/linearLayout"
             android:layout_centerHorizontal="true"
             android:text="HOUR"
-            android:textColor="#ffffff"
+            android:textColor="#5b0797"
             android:textSize="50dp" />
     </LinearLayout>
 
